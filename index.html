@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,minimun-scale=1,initial-scale=1.0">
+  <title>Cards</title>
+  <style>
+    *{
+      margin: 0%;
+      padding: 0%;
+    }
+    body{
+      background: linear-gradient(75deg, #00cc9b 45%, #00a8cc 55%);
+    }
+    .container{
+      overflow: hidden;
+      width: 365px;
+      margin-left: 40vw;
+    }
+    .cards{
+      display: flex;
+      position: relative;
+      width: 1460px;
+      animation-name: pokeanime;
+      animation-duration: 20s;
+      animation-iteration-count: infinite;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .card{
+      width: 350px;
+      height: 510px;
+      border: 1px solid #000 ;
+      margin-left: 15px;
+      margin-top: 20vh;
+      background: linear-gradient(100deg, #222 45%, #000 55%);
+    }
+    .card img{
+      width: 200px;
+      margin-top: 10px;
+      margin-left: 15%;
+      filter: drop-shadow(0px 0px 4px #222);
+    }
+    .in{
+        width: 100%;
+        height: 65%;
+        background: linear-gradient(200deg, #ffa500 10%, yellow 90%);
+    }
+    .ini{
+      width: 100%;
+      height: 65%;
+      background: linear-gradient(200deg, #993399 10%, #00a8cc 90%);
+    }
+    .inic{
+      width: 100%;
+      height: 65%;
+      background: linear-gradient(200deg, #007ecc 10%, #00cc9b 90%);
+    }
+    .inicio{
+      width: 100%;
+      height: 65%;
+      background: linear-gradient(200deg, #ab212e 10%, #ffa500 90%);
+    }
+    .in, .ini, .inic, .inicio{
+      border-bottom-left-radius: 200px;
+      border-bottom-right-radius: 200px;
+    }
+    .card h1{
+      margin-left: 20px;
+      padding-top: 20px;
+      font-size: 40px;
+      color: #fff;
+      text-shadow: 0px 0px 2px #222;
+    }
+    .card p{
+      width: 80%;
+      margin-top: 10px;
+      margin-left: 10%;
+      text-align: justify;
+      color: #fff;
+      text-shadow: 0px 0px 2px #222;
+    }
+    .fim{
+      width: 150px;
+      height: 150px;
+      margin-top: 30px;
+      float: right;
+      border-top-left-radius: 150px;
+      border-top-right-radius: 0px;
+      background-color: #007ecc;
+    }
+    .cor1{
+      background: linear-gradient(200deg, #ffa500 10%, yellow 90%);
+    }
+    .cor2{
+      background: linear-gradient(200deg, #993399 10%, #00a8cc 90%);
+    }
+    .cor3{
+      background: linear-gradient(200deg, #007ecc 10%, #00cc9b 90%);
+    }
+    .cor4{
+      background: linear-gradient(200deg, #ab212e 10%, #ffa500 90%);
+    }
+    .fim h1{
+      text-align: center;
+      margin-top: 100px;
+      font-size: 15px;
+      text-shadow: 0px 0px 2px #222;
+    }
+    @keyframes pokeanime {
+        0% {
+          left: 0px;
+        }
+        20% {
+          left: 0px;
+        }
+        25% {
+          left: -365px;
+        }
+        45% {
+          left: -365px;
+        }
+        50% {
+          left: -730px;
+        }
+        55% {
+          left: -730px;
+        }
+        70% {
+          left: -1095px;
+        }
+      }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="cards">
+      <div class="card">
+        <div class="in">
+          <h1>Pikachu</h1>
+          <p>
+            Pikachu é uma espécie fictícia pertencente à franquia de mídia Pokémon
+            da Nintendo. Ele apareceu pela primeira vez no Japão em 1996, nos
+            jogos eletrônicos Pokémon Red and Blue, e foi criado por Satoshi
+            Tajiri.
+          </p>
+          <img src="./imagem/Pikachu.png">
+        </div>
+        <div class="fim cor1">
+          <h1>2022 @ Vegsivir</h1>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="ini">
+          <h1>Squirtle</h1>
+          <p>
+            Squirtle, conhecido como Zenigame no Japão, é uma espécie de Pokémon da
+            franquia Pokémon da Nintendo e Game Freak. Foi desenhado por Atsuko Nishida.
+            Seu nome foi alterado de Zenigame para Squirtle durante a localização em inglês
+            da série para dar a ela um "nome inteligente e descritivo".
+          </p>
+          <img src="./imagem/squirtle.png">
+        </div>
+        <div class="fim cor2">
+          <h1>2022 @ Vegsivir</h1>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="inic">
+          <h1>Bulbasaur</h1>
+          <p>
+            Bulbasaur, chamado de Bulbasauro em português, é uma espécie fictícia pertencente
+            à franquia Pokémon da Nintendo. Apareceu pela primeira vez em 1996 nos jogos Pocket
+            Monsters Red & Green, levados ao ocidente como Pokémon Red & Blue.
+          </p>
+          <img src="./imagem/Bulbasaur.png">
+        </div>
+        <div class="fim cor3">
+          <h1>2022 @ Vegsivir</h1>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="inicio">
+          <h1>Charmander</h1>
+          <p>
+            Charmander, conhecido como Hitokage no Japão, é um espécie de pokémon da franquia
+            Pokémon da Nintendo e da Game Freak. Criado por Atsuko Nishida, Charmander apareceu pela
+            primeira vez no videogame Pokémon Red e Blue e subsequentes, mais tarde aparecendo em vários
+            jogos da franquia.
+          </p>
+          <img src="./imagem/Charmander.png">
+        </div>
+        <div class="fim cor4">
+          <h1>2022 @ Vegsivir</h1>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  
+</body>
+</html>
